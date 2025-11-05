@@ -5,70 +5,111 @@
 <meta charset="UTF-8">
 <title>Apa itu Perbaikan Berkelanjutan (Kaizen) dan Rasa Hormat terhadap orang lain (Respect for People) yang merupakan pilar Toyota Way</title>
 <style>
-body {
-  background:#ffffff; 
-  color:#1A1A1A;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-  line-height:1.65;
-  padding:32px;
-  max-width:800px;
-  margin:auto;
+:root {
+  --toyota-red:#EB0A1E;
+  --text:#1A1A1A;
+  --gray:#f5f5f5;
+  --light:#fafafa;
+  --border:#e1e1e1;
 }
-a {
-  color:#EB0A1E;
+body {
+  background:#ffffff;
+  color:var(--text);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  line-height:1.68;
+  padding:0;
+  margin:0;
+  display:flex;
+}
+.sidebar {
+  width:240px;
+  background:var(--light);
+  padding:24px;
+  border-right:1px solid var(--border);
+  height:100vh;
+  position:sticky;
+  top:0;
+}
+.sidebar h3 {
+  color:var(--toyota-red);
+  margin-bottom:12px;
+}
+.sidebar a {
+  display:block;
+  color:var(--text);
+  margin-bottom:6px;
+  font-size:15px;
+}
+.sidebar a:hover {
+  color:var(--toyota-red);
+}
+.main {
+  flex:1;
+  padding:32px;
+  max-width:900px;
+}
+.breadcrumb {
+  font-size:14px;
+  margin-bottom:16px;
+}
+.breadcrumb a {
+  color:var(--toyota-red);
   font-weight:bold;
 }
-a:hover {
-  color:#000;
-}
 h1 {
-  font-size:32px;
+  font-size:34px;
   font-weight:700;
-  margin-bottom:4px;
-  color:#EB0A1E;
+  color:var(--toyota-red);
+  margin-bottom:6px;
 }
 h2 {
   font-size:22px;
   font-weight:600;
-  margin-top:28px;
+  margin-top:32px;
 }
 p {
-  margin-bottom:16px;
   font-size:17px;
+  margin-bottom:16px;
 }
 ul, ol {
-  margin-bottom:16px;
   padding-left:22px;
+  margin-bottom:16px;
 }
 blockquote {
-  padding:16px 20px;
-  background:#FAFAFA;
-  border-left:4px solid #EB0A1E;
+  padding:12px 18px;
+  background:#fff8f8;
+  border-left:5px solid var(--toyota-red);
   font-style:italic;
   margin:20px 0;
 }
-.header-nav {
-  margin-bottom:24px;
-  padding-bottom:8px;
-  border-bottom:2px solid #EB0A1E;
-  display:flex;
-  gap:12px;
-  font-weight:bold;
-}
 .footer {
   margin-top:40px;
+  color:#777;
   font-size:14px;
-  color:#666;
-  border-top:1px solid #ddd;
-  padding-top:12px;
+  padding-top:10px;
+  border-top:1px solid var(--border);
 }
 </style>
 </head>
 <body>
 
-<div class="header-nav">
+<div class="sidebar">
+  <h3>Toyota KB</h3>
   <a href="/">🏠 Home</a>
-  <a href="/blog">📚 Blog</a>
+  <a href="/blog">📚 All Docs</a>
+  <hr>
+  <strong>📂 Categories</strong>
+  <a href="#kaizen">Kaizen</a>
+  <a href="#tps">TPS Pillars</a>
+  <a href="#jidoka">Jidoka</a>
+  <a href="#jit">Just-In-Time</a>
+  <a href="#leader">Leadership</a>
+</div>
+
+<div class="main">
+
+<div class="breadcrumb">
+  <a href="/">Home</a> › <a href="/blog">Knowledge Base</a> › Apa itu Perbaikan Berkelanjutan (Kaizen) dan Rasa Hormat terhadap orang lain (Respect for People) yang merupakan pilar Toyota Way
 </div>
 
 <h1>Apa itu Perbaikan Berkelanjutan (Kaizen) dan Rasa Hormat terhadap orang lain (Respect for People) yang merupakan pilar Toyota Way</h1>
@@ -102,8 +143,10 @@ blockquote {
 <p>Kedua pilar ini bekerja seperti sepasang kaki yang menopang seluruh tubuh Toyota. Kaki <em>Respect for People</em> memberikan stabilitas dan kepercayaan diri, memungkinkan kaki <em>Continuous Improvement</em> melangkah maju, mendorong organisasi untuk maju menuju visi masa depan yang lebih baik, karena mereka tahu mereka memiliki dukungan yang kokoh di belakang mereka.</p>
 
 <div class="footer">
-  Built with The Toyota Way — Kaizen & Respect for People
+  Toyota Production System • Kaizen / Respect for People
+  <br>Auto-generated KB · 05 Nov 2025
 </div>
 
+</div>
 </body>
 </html>
