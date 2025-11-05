@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>KaizenMan TPS Knowledge Feed</title>
     <link>https://kaizenman.pages.dev</link>
+    <atom:link href="https://kaizenman.pages.dev/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Continuous Improvement / Toyota Production System Blog RSS</description>
     <language>id-ID</language>
-    <lastBuildDate>Wed, 05 Nov 2025 22:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 15:54:36 GMT</lastBuildDate>
     
         <item>
             <title>Apa itu Kaizen ?</title>
             <link>https://kaizenman.pages.dev/blog/2025/11/2025-11-05-apa-itu-kaizen-.html</link>
             <guid>https://kaizenman.pages.dev/blog/2025/11/2025-11-05-apa-itu-kaizen-.html</guid>
-            <pubDate>05 Nov 2025</pubDate>
+            <pubDate>Wed, 05 Nov 2025 22:54:36 GMT</pubDate>
         </item>
                 
         <item>
             <title>Apa itu Perbaikan Berkelanjutan (Kaizen) dan Rasa Hormat terhadap orang lain (Respect for People) yang merupakan pilar Toyota Way</title>
             <link>https://kaizenman.pages.dev/blog/2025/11/2025-11-05-apa-itu-perbaikan-berkelanjutan-kaizen-dan-rasa-hormat-terhadap-orang-lain-respect-for-people-yang-merupakan-pilar-toyota-way.html</link>
             <guid>https://kaizenman.pages.dev/blog/2025/11/2025-11-05-apa-itu-perbaikan-berkelanjutan-kaizen-dan-rasa-hormat-terhadap-orang-lain-respect-for-people-yang-merupakan-pilar-toyota-way.html</guid>
-            <pubDate>05 Nov 2025</pubDate>
+            <pubDate>Wed, 05 Nov 2025 22:07:45 GMT</pubDate>
         </item>
                 
 </channel>
