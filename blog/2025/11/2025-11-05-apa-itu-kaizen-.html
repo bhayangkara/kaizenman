@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Apa itu Kaizen ?</title>
+
+<style>
+/* Toyota theme simplified */
+:root {
+  --red:#EB0A1E;
+  --gray:#f5f5f5;
+  --light:#fafafa;
+  --border:#e1e1e1;
+}
+
+body {
+  background:#fff; color:#1A1A1A;
+  font-family:-apple-system,Roboto,Arial;
+  margin:0; display:flex;
+}
+.sidebar {
+  width:250px; background:var(--light);
+  padding:20px; border-right:1px solid var(--border);
+  position:sticky; top:0; height:100vh;
+}
+.sidebar input {
+  width:100%; padding:8px; border-radius:6px;
+  border:1px solid var(--border); margin-bottom:14px;
+}
+.main { flex:1; padding:32px; max-width:900px; }
+h1 { color:var(--red); font-size:32px; margin-bottom:6px; }
+h2 { margin-top:32px; font-size:22px; }
+p { font-size:17px; margin-bottom:14px; }
+.toc ul{ padding-left:16px; }
+.tag {
+  display:inline-block;
+  background:var(--gray);
+  padding:4px 8px;
+  border-radius:4px;
+  margin:2px;
+  font-size:13px;
+  border-left:3px solid var(--red);
+}
+blockquote {
+  padding:12px 18px; background:#fff8f8;
+  border-left:5px solid var(--red);
+  font-style:italic; margin:20px 0;
+}
+</style>
+
+<script>
+function searchKB() {
+  let q = document.getElementById("search").value.toLowerCase();
+  let ps = document.querySelectorAll("p,li,h2");
+  ps.forEach(el => {
+    if(el.innerText.toLowerCase().includes(q)) {
+        el.style.background="yellow";
+    } else {
+        el.style.background="transparent";
+    }
+  });
+}
+</script>
+
+</head>
+<body>
+
+<div class="sidebar">
+  <h3 style="color:var(--red)">TPS Knowledge Base</h3>
+  <a href="/">🏠 Home</a><br>
+  <a href="/blog">📚 All Docs</a><br><br>
+
+  <input id="search" onkeyup="searchKB()" placeholder="🔍 Search">
+  <hr><strong>📂 Sections</strong><br><br>
+  
+</div>
+
+<div class="main">
+
+<h1>Apa itu Kaizen ?</h1>
+<p><em>05 Nov 2025</em></p>
+
+<span class="tag">Muda</span><span class="tag">Pdca</span><span class="tag">Gemba</span><span class="tag">Tps</span><span class="tag">Muri</span><span class="tag">Mura</span><span class="tag">Kaizen</span>
+<br><br>
+
+
+<br>
+
+<p>Konsep <strong>'kaizen'</strong> merupakan elemen inti dan pilar fundamental dari filosofi manajemen Toyota, yang dikenal sebagai <em>The Toyota Way</em>. 'Kaizen' adalah istilah lain untuk <strong>perbaikan berkesinambungan</strong> (<em>continuous improvement</em>).</p>
+<p>Berikut adalah penjelasan rinci mengenai konsep <em>kaizen</em> dalam <em>The Toyota Way</em>, berdasarkan sumber yang tersedia:</p>
+<ol>
+<li>Pilar Fundamental The Toyota Way</li>
+</ol>
+<p><em>Kaizen</em> adalah salah satu dari <strong>dua pilar utama</strong> yang menopang <em>The Toyota Way</em>, bersama dengan pilar "<strong>Rasa Hormat kepada Orang</strong>" (<em>Respect for People</em>).</p>
+<p><strong>Perbaikan Berkesinambungan (</strong><strong><em>Continuous Improvement</em></strong><strong>)</strong> mendefinisikan pendekatan dasar Toyota dalam berbisnis, yaitu <strong>menantang segalanya</strong> (<em>challenge everything</em>).</p>
+<p>Nilai sejati dari perbaikan berkesinambungan—yang lebih penting daripada perbaikan aktual yang disumbangkan oleh individu—terletak pada penciptaan <strong>suasana pembelajaran yang berkelanjutan</strong> dan <strong>lingkungan yang tidak hanya menerima, tetapi benar-benar merangkul perubahan</strong>.</p>
+<ol>
+<li>Kaizen sebagai Pendekatan Ilmiah dan Filosofi</li>
+</ol>
+<p>Di Toyota, <em>kaizen</em> bukanlah sekadar aktivitas sporadis, melainkan sebuah pola pikir dan cara kerja sehari-hari.</p>
+<p><strong>Bukan Proyek Khusus:</strong> Kaizen di Toyota <strong>bukanlah serangkaian proyek atau acara khusus</strong>. Konsep ini sering disalahpahami oleh banyak orang di luar Toyota sebagai kegiatan perbaikan diskret (<em>discrete improvement project</em>) atau <em>kaizen event</em> yang berlangsung selama seminggu.</p>
+<p><strong>Mandat Peningkatan:</strong> Kaizen adalah <strong>mandat untuk terus meningkatkan kinerja</strong> menuju yang lebih baik. Ini adalah penggerak untuk membangun perusahaan yang berkelanjutan (<em>sustainable enterprise</em>).</p>
+<p><strong>Siklus PDCA:</strong> Kaizen adalah <strong>cara orang dalam perusahaan bekerja menuju tujuan secara ilmiah</strong>. Ini mengacu kembali pada <strong>siklus PDCA</strong> (<em>plan-do-check-act</em>) yang tidak pernah berakhir.</p>
+<p><strong>Fokus di </strong><strong><em>Gemba</em></strong>: Meskipun perbaikan dapat datang dari mana saja, jumlah terbesar aktivitas <em>kaizen</em> terjadi pada tingkat kelompok kerja produksi, karena mereka berada paling dekat dengan <em>gemba</em> (tempat kerja sebenarnya).</p>
+<ol>
+<li>Kaizen dan Sistem Produksi Toyota (TPS)</li>
+</ol>
+<p>Kaizen sangat terintegrasi dalam cara kerja TPS (Toyota Production System):</p>
+<p><strong>Tantangan dan Masalah:</strong> Toyota sengaja menciptakan sistem yang "rapuh" (<em>fragile</em>) seperti <em>one-piece flow</em> (Aliran Proses Berkesinambungan), yang dirancang untuk <strong>memperlihatkan masalah</strong> (<em>surface problems</em>). Ketika masalah muncul (misalnya, lini berhenti), setiap orang dipaksa untuk <strong>segera memecahkan masalah tersebut</strong>—sebuah proses yang mendorong orang untuk berpikir dan berkembang, itulah inti dari <em>kaizen</em>.</p>
+<p><strong>Pondasi Kerja Terstandardisasi:</strong> Kerja terstandardisasi (<em>standardized work</em>) adalah tulang punggung proses <em>The Toyota Way</em> dan <strong>pondasi untuk perbaikan berkesinambungan</strong>. Setelah cara kerja terbaik yang diketahui saat ini didokumentasikan, standar baru itu menjadi dasar (<em>baseline</em>) untuk <em>kaizen</em> lebih lanjut.</p>
+<p><strong>Eliminasi Tiga </strong><strong><em>M</em></strong>: Kaizen berfokus pada eliminasi tiga jenis pemborosan (<em>waste</em>) yang dikenal sebagai Tiga M: <em>Muda</em> (pemborosan non-nilai tambah), <em>Muri</em> (beban berlebih pada orang atau peralatan), dan <strong>Mura</strong> (ketidakmerataan atau fluktuasi).</p>
+<ol>
+<li>Kaizen dan Pengembangan Sumber Daya Manusia</li>
+</ol>
+<p><em>Kaizen</em> di Toyota bukanlah tentang seberapa banyak potongan produk yang dihasilkan, tetapi tentang <strong>kontribusi kreatif</strong> dan <strong>pemikiran ilmiah</strong> yang berkelanjutan.</p>
+<p><strong>Pengembangan Orang:</strong> Nilai sejati dari <em>kaizen</em> adalah dalam <strong>mengembangkan orang</strong>. Di Toyota, semua manusia dianggap sebagai <strong>pendeteksi masalah dan korektor masalah</strong> yang berpikir secara ilmiah.</p>
+<p><strong>Budaya Refleksi (</strong><strong><em>Hansei</em></strong><strong>)</strong>: Inti dari <em>kaizen</em> dan pembelajaran adalah sikap refleksi diri dan kritik diri yang dikenal sebagai <strong>hansei</strong>. Tanpa <em>hansei</em>—yang berarti secara tulus mengakui kelemahan dan berkomitmen untuk tidak mengulanginya—mustahil ada <em>kaizen</em>.</p>
+<p>Konsep <em>kaizen</em> di Toyota dapat diibaratkan seperti pendaki gunung yang tidak hanya fokus pada puncak tertinggi (<strong>Tantangan</strong> atau <em>Challenge</em>), tetapi juga pada setiap langkah kecil yang diambil menuju puncak (<strong>Perbaikan Berkesinambungan</strong>). Setiap hari, mereka memeriksa cuaca dan kondisi jalur (<em>Grasping the Current Condition</em>), belajar dari kesalahan langkah (<em>PDCA</em>), dan kemudian memperbarui panduan jalur (menciptakan <strong>Kerja Terstandardisasi baru</strong>) agar pendaki berikutnya dapat mencapai tujuan lebih efisien. Mereka terus-menerus menantang diri mereka sendiri dan lingkungan mereka untuk menemukan cara yang lebih baik.</p>
+
+</div>
+</body>
+</html>
