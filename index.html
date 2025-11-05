@@ -11,6 +11,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="id_ID" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230f172a'/%3E%3Cpath d='M30 65 L50 20 L70 65' stroke='%23fff' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='75' r='6' fill='%23fff'/%3E%3C/svg%3E" />
+  <!-- ✅ Feed discovery -->
+  <link rel="alternate" type="application/rss+xml" title="KaizenMan RSS" href="/blog/rss.xml">
+  <link rel="alternate" type="application/feed+json" title="KaizenMan JSON Feed" href="/blog/feed.json">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/blog/sitemap.xml">
+
   <style>
     :root {
       --bg: #0b1220;
@@ -125,9 +130,18 @@
       </aside>
     </main>
 
+
     <footer>
       © <span id="year"></span> BEAFC — Build Efficiency and Flow Culture • Made at Gemba
+      <br><br>
+      <!-- ✅ Silent footer links for power users & SEO -->
+      <div style="opacity:.55; font-size:11px;">
+        <a href="/blog/rss.xml">RSS</a> • 
+        <a href="/blog/feed.json">JSON</a> • 
+        <a href="/blog/sitemap.xml">Sitemap</a>
+      </div>
     </footer>
+
   </div>
 
   <script>
