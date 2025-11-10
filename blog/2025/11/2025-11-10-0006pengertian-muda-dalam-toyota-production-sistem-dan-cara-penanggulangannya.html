@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>0006_Pengertian Muda dalam Toyota Production Sistem dan Cara Penanggulangannya</title>
+
+<style>
+/* Toyota theme simplified */
+:root {
+  --red:#EB0A1E;
+  --gray:#f5f5f5;
+  --light:#fafafa;
+  --border:#e1e1e1;
+}
+
+body {
+  background:#fff; color:#1A1A1A;
+  font-family:-apple-system,Roboto,Arial;
+  margin:0; display:flex;
+}
+.sidebar {
+  width:250px; background:var(--light);
+  padding:20px; border-right:1px solid var(--border);
+  position:sticky; top:0; height:100vh;
+}
+.sidebar input {
+  width:100%; padding:8px; border-radius:6px;
+  border:1px solid var(--border); margin-bottom:14px;
+}
+.main { flex:1; padding:32px; max-width:900px; }
+h1 { color:var(--red); font-size:32px; margin-bottom:6px; }
+h2 { margin-top:32px; font-size:22px; }
+p { font-size:17px; margin-bottom:14px; }
+.toc ul{ padding-left:16px; }
+.tag {
+  display:inline-block;
+  background:var(--gray);
+  padding:4px 8px;
+  border-radius:4px;
+  margin:2px;
+  font-size:13px;
+  border-left:3px solid var(--red);
+}
+blockquote {
+  padding:12px 18px; background:#fff8f8;
+  border-left:5px solid var(--red);
+  font-style:italic; margin:20px 0;
+}
+</style>
+
+<script>
+function searchKB() {
+  let q = document.getElementById("search").value.toLowerCase();
+  let ps = document.querySelectorAll("p,li,h2");
+  ps.forEach(el => {
+    if(el.innerText.toLowerCase().includes(q)) {
+        el.style.background="yellow";
+    } else {
+        el.style.background="transparent";
+    }
+  });
+}
+</script>
+
+</head>
+<body>
+
+<div class="sidebar">
+  <h3 style="color:var(--red)">TPS Knowledge Base</h3>
+  <a href="/">🏠 Home</a><br>
+  <a href="/blog">📚 All Docs</a><br><br>
+
+  <input id="search" onkeyup="searchKB()" placeholder="🔍 Search">
+  <hr><strong>📂 Sections</strong><br><br>
+  
+</div>
+
+<div class="main">
+
+<h1>0006_Pengertian Muda dalam Toyota Production Sistem dan Cara Penanggulangannya</h1>
+<p><em>10 Nov 2025</em></p>
+
+<span class="tag">Mura</span><span class="tag">Heijunka</span><span class="tag">Kaizen</span><span class="tag">Tps</span><span class="tag">Gemba</span><span class="tag">Andon</span><span class="tag">Jidoka</span><span class="tag">Hoshin Kanri</span><span class="tag">Muri</span><span class="tag">Genchi Genbutsu</span><span class="tag">Muda</span><span class="tag">Kanban</span>
+<br><br>
+
+
+<br>
+
+<p><strong><em>Muda</em></strong> <strong>(Pemborosan)</strong> adalah istilah Toyota untuk <strong>segala sesuatu yang memakan waktu tetapi tidak memberikan nilai</strong><strong> tambah bagi pelanggan Anda</strong>. Secara umum, <em>Muda</em> didefinisikan sebagai aktivitas yang <strong>tidak memberikan nilai tambah (</strong><strong><em>non-value added</em></strong><strong>)</strong>.</p>
+<p>Tujuan inti dari Toyota Production System (TPS) adalah <strong>menghilangkan pemborosan (</strong><strong><em>Muda</em></strong><strong>)</strong>. Menghilangkan <em>Muda</em> adalah kunci untuk mencapai aliran nilai yang berkelanjutan kepada pelanggan tanpa interupsi.</p>
+<p><strong>Tujuh Jenis Pemborosan (</strong><strong><em>Muda</em></strong><strong>)</strong></p>
+<p>Toyota mengkategorikan tujuh jenis utama pemborosan non-nilai tambah yang sering ditemukan dalam proses manufaktur, dan dengan sedikit modifikasi, dapat diterapkan pada pengembangan produk, perangkat lunak, layanan, atau proses kantor:</p>
+<p><strong>Overproduction (Produksi Berlebih):</strong> Memproduksi mendahului atau mengantisipasi permintaan, yang menghasilkan pemborosan seperti kelebihan staf, biaya penyimpanan dan transportasi yang tidak perlu karena kelebihan inventaris. Taiichi Ohno menganggap ini sebagai <strong>pemborosan mendasar</strong> karena menyebabkan sebagian besar pemborosan lainnya (<em>Muda</em>).</p>
+<p><strong>Waiting (Waktu Menunggu):</strong> Mengamati atau menunggu mesin, menunggu input utama, atau memiliki waktu luang tanpa tenggat waktu yang mendesak.</p>
+<p><strong>Unnecessary transport or conveyance (Transportasi atau Pengiriman yang Tidak Perlu):</strong> Membawa barang dalam proses (<em>work in process/WIP</em>) jarak jauh, menciptakan transportasi yang tidak efisien, atau memindahkan material/informasi ke dalam atau ke luar penyimpanan atau antar proses.</p>
+<p><strong>Overprocessing or incorrect processing (Pemrosesan Berlebihan atau Tidak Tepat):</strong> Mengambil langkah-langkah yang tidak perlu untuk memproses suku cadang. Ini juga mencakup pemrosesan yang tidak efisien karena desain alat atau produk yang buruk (menyebabkan gerakan yang tidak perlu dan menghasilkan cacat) atau menyediakan produk/layanan dengan kualitas lebih tinggi dari yang diperlukan.</p>
+<p><strong>Excess inventory (Inventaris Berlebihan):</strong> Kelebihan bahan baku, WIP, atau barang jadi yang menyebabkan waktu tunggu yang lebih lama, keusangan, kerusakan barang, biaya transportasi dan penyimpanan, dan penundaan. Inventaris berlebihan juga menyembunyikan masalah seperti ketidakseimbangan produksi, keterlambatan pengiriman, cacat, waktu henti peralatan, dan waktu pengaturan yang lama.</p>
+<p><strong>Unnecessary movement (Gerakan yang Tidak Perlu):</strong> Setiap gerakan yang sia-sia yang dilakukan karyawan selama bekerja, seperti mencari, berjalan menuju, menjangkau, atau menumpuk suku cadang, alat, dll..</p>
+<p><strong>Defects (Cacat):</strong> Produksi cacat dan koreksinya. Perbaikan atau pengerjaan ulang, skrap, produksi pengganti, dan inspeksi membuang waktu, usaha, dan penanganan.</p>
+<p><em>(Catatan: Ada juga konsep pemborosan kedelapan, yaitu </em><strong><em>kreativitas karyawan yang tidak dimanfaatkan</em></strong><em>, meskipun ini tidak masuk dalam daftar tujuh Muda yang dapat diobservasi secara fisik).</em></p>
+<p><strong>Cara Menanggulangi (</strong><strong><em>Muda</em></strong><strong>)</strong></p>
+<p>Menanggulangi <em>Muda</em> adalah inti dari filosofi dan sistem di Toyota. Namun, hanya berfokus pada penghilangan <em>Muda</em> saja tidak cukup dan dapat merugikan sistem secara keseluruhan.</p>
+<p>Pendekatan untuk menanggulangi <em>Muda</em> harus bersifat sistemik dan menyeluruh, dengan fokus pada <strong>Tiga M</strong>: menghilangkan <strong>Muda</strong> (pemborosan), <strong>Mura</strong> (ketidakmerataan), dan <strong>Muri</strong> (beban berlebih). <em>Mura</em> dan <em>Muri</em> sering kali menyebabkan <em>Muda</em>.</p>
+<p>Berikut adalah prinsip-prinsip utama Toyota (Toyota Way) yang digunakan untuk mengatasi pemborosan:</p>
+<ol>
+<li>Menciptakan Aliran Nilai (Flow)</li>
+</ol>
+<p><strong>Continuous Flow (Aliran Proses Berkelanjutan):</strong> Rancang proses kerja untuk mencapai aliran berkelanjutan bernilai tambah tinggi pada kecepatan permintaan pelanggan (<em>takt</em>). Berusaha untuk memotong hingga nol jumlah waktu suatu proyek kerja diam atau menunggu untuk dikerjakan. Mencapai aliran satu bagian (<em>one-piece flow</em>) adalah ideal yang harus diperjuangkan untuk mengurangi pemborosan dan membuat masalah muncul segera.</p>
+<p><strong>Pull Systems (Sistem Tarik):</strong> Gunakan sistem tarik untuk <strong>menghindari produksi berlebih (</strong><strong><em>overproduction</em></strong><strong>)</strong>. Dalam sistem tarik, proses hilir (pelanggan internal atau eksternal) memberikan sinyal bahwa mereka siap untuk menerima produk, yang memicu proses hulu untuk mengisi kembali inventaris dalam jumlah kecil yang telah dikonsumsi. Alat utama untuk ini adalah <strong>Kanban</strong>. <strong>Nilai terbesar </strong><strong><em>Kanban</em></strong><strong> adalah membantu memvisualisasikan aliran, mempelajarinya, dan menemukan cara untuk mengurangi </strong><strong><em>buffer</em></strong><strong> inventaris agar semakin dekat dengan </strong><strong><em>one-piece flow</em></strong>.</p>
+<p><strong>Level Out the Workload (</strong><strong><em>Heijunka</em></strong><strong>):</strong> Perataan jadwal produksi (<em>Heijunka</em>) sangat penting untuk menghilangkan <strong>Mura</strong> (ketidakmerataan) dan <strong>Muri</strong> (beban berlebih), yang pada gilirannya menghilangkan <em>Muda</em>. Tanpa perataan, pemborosan cenderung meningkat karena orang dan peralatan dipaksa bekerja terlalu keras lalu berhenti dan menunggu, seperti kelinci dan bukan kura-kura.</p>
+<ol start="2">
+<li>Menetapkan Dasar dan Mengidentifikasi Masalah</li>
+</ol>
+<p><strong>Standardized Processes (Proses Terstandar):</strong> Tetapkan metode yang stabil dan terulang sebagai fondasi untuk <em>Kaizen</em> (perbaikan berkelanjutan). Standar kerja yang terdokumentasi dengan baik (praktik terbaik yang diketahui saat ini) membantu menghilangkan gerakan atau waktu yang terbuang dan menjadi <strong>garis dasar untuk perbaikan lebih lanjut</strong>.</p>
+<p><strong>Build in Quality (</strong><strong><em>Jidoka</em></strong><strong>):</strong> Ciptakan budaya untuk <strong>berhenti guna mengidentifikasi kondisi di luar standar</strong> dan membangun kualitas. <em>Jidoka</em> adalah prinsip untuk membangun kemampuan pada peralatan (otonomasi) atau memberikan izin kepada karyawan untuk <strong>menghentikan jalur perakitan (</strong><strong><em>andon</em></strong><strong>)</strong> ketika masalah (seperti cacat atau kondisi di luar standar) terdeteksi. Ini memaksa tim untuk segera menyelesaikan masalah, mencegah cacat diteruskan, dan pada akhirnya mengeliminasi pemborosan perbaikan di kemudian hari.</p>
+<p><strong>Use Visual Control (Kontrol Visual):</strong> Gunakan indikator visual sederhana (<em>Visual Management</em>) untuk membantu orang segera menentukan apakah mereka berada dalam kondisi standar atau menyimpang darinya. <strong>5S (Sort, Straighten, Shine, </strong><strong>Standardize, Sustain)</strong> adalah alat yang kuat untuk menciptakan tempat kerja visual, memastikan tempat kerja rapi dan terorganisir, sehingga masalah atau pemborosan (seperti kelebihan inventaris atau perkakas yang hilang) segera terlihat.</p>
+<ol start="3">
+<li>Mengembangkan Orang dan Berpikir Ilmiah</li>
+</ol>
+<p><strong>Problem Solving and Scientific Thinking:</strong> Menghilangkan <em>Muda</em> secara efektif membutuhkan karyawan yang dikembangkan sebagai pemecah masalah. Toyota menekankan <strong>pemikiran ilmiah</strong> (<em>Scientific Thinking</em>) sebagai pusat dari budaya peningkatan berkelanjutan. </p>
+<p><strong>Observe Deeply (</strong><strong><em>Genchi Genbutsu</em></strong><strong>):</strong> Pemecahan masalah harus dimulai dengan <strong>pergi ke sumbernya (</strong><strong><em>gemba</em></strong><strong>)</strong> untuk mengamati dan memverifikasi data secara pribadi daripada berteori.</p>
+<p><strong>Five Whys Analysis (Analisis Lima Mengapa):</strong> Digunakan untuk mencari <strong>akar penyebab (</strong><strong><em>root cause</em></strong><strong>)</strong> masalah yang menimbulkan pemborosan, bukan hanya gejalanya.</p>
+<p><strong>Improvement Kata (IK):</strong> Mike Rother mengembangkan model <em>Improvement Kata</em> (IK) yang merupakan pola berpikir ilmiah praktis sehari-hari, berfokus pada menetapkan tantangan, memahami kondisi saat ini, menetapkan kondisi target berikutnya, dan <strong>bereksperimen</strong> untuk mencapai target tersebut. Ini adalah cara untuk secara berulang (<em>iteratively</em>) dan bertahap menghilangkan hambatan dan pemborosan menuju tujuan yang menantang.</p>
+<p><strong>Continuous Improvement (</strong><strong><em>Kaizen</em></strong><strong>):</strong> Kunci untuk menanggulangi <em>Muda</em> secara berkelanjutan adalah <strong>menciptakan budaya yang merangkul perubahan</strong> dan melibatkan semua orang dalam perbaikan. <em>Kaizen</em> adalah perbaikan berkelanjutan, yang kadang-kadang berupa lompatan besar (didorong oleh <em>Hoshin Kanri</em>—penyebaran kebijakan) dan kadang-kadang berupa langkah kecil harian (didorong oleh <em>Standard-Do-Check-Act/SDCA</em>).</p>
+<p>Menanggulangi <em>Muda</em> pada dasarnya adalah tentang membangun sistem di mana pemborosan <strong>secara alami muncul ke permukaan</strong> dan orang-orang terlatih dan termotivasi untuk menyelesaikannya secara ilmiah.</p>
+
+</div>
+</body>
+</html>
